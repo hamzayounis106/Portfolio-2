@@ -22,11 +22,6 @@
     max-width: 50%;
   }
 }
-@media screen and (max-width: 977px) {
-  .work_box_img img {
-    min-width: 260px;
-  }
-}
 @media screen and (max-width: 1014px) {
   .test_cols {
     display: flex;
@@ -38,6 +33,12 @@
     gap: 10px;
   }
 }
+@media screen and (max-width: 977px) {
+  .work_box_img img {
+    min-width: 260px;
+  }
+}
+
 @media screen and (max-width: 879px) {
   #btn-CV {
     border-radius: 12px;
@@ -86,6 +87,9 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .testimonial{
+    padding: 3rem 0;
+  }
   .content_hero h1 {
     font-size: 2rem;
   }
@@ -93,7 +97,26 @@
 .content_hero h1 img {
   width: 40px;
 }
-
+@media screen and (max-width: 780px) {
+  .ham {
+    padding-right: 23px !important;
+  }
+  .hero_Section{
+    margin-top: 0;
+  }
+  .main-Header{
+margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .pcmenu {
+    display: none;
+  }
+  #sidebar {
+    
+    display: flex;
+  }
+}
 @media screen and (max-width: 750px) {
   .hero_Section {
     margin-top: 1rem;
@@ -117,185 +140,17 @@
     width: 100%;
   }
   #logo {
+    padding:1rem;
+    padding-top: 0;
+    width: 100px;
+  }
+  #logo2 {
     width: 100px;
   }
 }
-@media screen and (max-width: 780px) {
-  .main-Header {
-    display: none;
+@media screen and (max-width: 750px) {
+  .hero_Section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
-  #sidebar {
-    display: flex;
-  }
-  .hero_Section {
-  }
-}
-.navbar {
-  padding-left: 45px;
-}
-#nav {
-  color: #33a242;
-}
-#cross {
-  color: white;
-}
-
-.intro::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  flex-wrap: wrap;
-  height: 100vh;
-  background-image: url("Imges/rosie-sun-1L71sPT5XKc-unsplash\ \(1\).jpg");
-  background-size: cover;
-  background-position: center center;
-  background-position: center top;
-  background-attachment: fixed;
-  z-index: -1;
-  opacity: 1;
-}
-
-#sidebar ul {
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  color: white;
-}
-
-#sidebar li {
-  list-style: none;
-  margin: 0.7rem 0rem;
-}
-
-#link {
-  box-sizing: inherit;
-  text-decoration: none;
-  font-size: 1.15rem;
-  padding-top: 1rem;
-  color: White;
-  font-weight: 200;
-}
-
-#link:hover {
-  border-top: 3px solid rgb(228, 220, 228);
-  border-radius: 3px;
-  color: rgb(196, 196, 196);
-}
-#icons {
-  color: #ffffff;
-}
-.ham {
-  padding-right: 45px;
-  position: fixed;
-  right: 3px;
-  background-color: #111827;
-  z-index: 900;
-  color: #fff;
-  padding-left: 23px;
-  margin: 1rem;
-  border-radius: 8px;
-}
-
-#hm {
-  cursor: pointer;
-  font-size: 0.8rem !important;
-}
-
-.hamicon {
-  padding-left: 14px;
-}
-
-.cross {
-  margin-left: 14px;
-  cursor: pointer;
-}
-
-#nav {
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-}
-
-.hidebar {
-  background: #111827;
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 1.3rem;
-  line-height: 1.846;
-  padding: 3.6rem 3rem 3.6rem 3.6rem;
-  padding: 0.6rem 1rem 3.6rem 0;
-  height: 100%;
-  width: 240px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 700;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transition: all 1s;
-}
-
-.hidebar p {
-  font-size: 13px;
-}
-
-.hidden {
-  translate: 260px;
-  transition: all 1s;
-}
-
-.licon {
-  margin: 0px 10px;
-}
-
-.hero {
-  height: 100vh;
-}
-
-.content {
-  font-size: 22px;
-  width: 60%;
-}
-
-.icons i {
-  margin-top: 2rem;
-  font-size: 25px;
-  cursor: pointer;
-}
-
-.btns {
-  padding-top: 1.8rem;
-  text-align: left;
-}
-
-.btns button {
-  margin: 4px;
-  width: 255px;
-  color: #ffffff;
-  margin: 1.5rem 1.5rem 0 0;
-  letter-spacing: 0.25rem;
-  transition: all 0.5s ease-in-out;
-  background: transparent !important;
-  border: 0.2rem solid #dbdfdb;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  padding: 1rem 1rem;
-  margin: 0 0.3rem 1.2rem 0;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.btns button:hover {
-  color: black;
-  background: white !important;
-}
-.sidebar_btn {
-  padding: 16px;
-}
-.sidebar_link{
-  color: white;
-  text-decoration: none;
-  
 }
