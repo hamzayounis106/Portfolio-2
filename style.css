@@ -509,7 +509,7 @@ header {
 .work_main_box {
   display: flex;
   flex-direction: column;
-  padding: 48px 32px;
+  /* padding: 48px 32px; */
   gap: 48px;
 }
 
@@ -727,6 +727,7 @@ align-items: center; */
 .footer p {
   color: #d1d5db;
   font-family: Inter;
+  text-align: center;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
