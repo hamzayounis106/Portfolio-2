@@ -59,7 +59,7 @@ document.getElementById("img_mode2").onclick = () => {
   if (dark_theme) {
     dark_theme = false;
     //Changing Logo Src
-    document.getElementById("logo2").src = "Images/Dark_logo.png";
+    document.getElementById("logo").src = "Images/Dark_logo.png";
     //Changing Toogle Image Src
     document.getElementById("main_toogle").src = "Images/Light Mode icon.svg";
     //Changing location_icon Image Src
@@ -198,7 +198,7 @@ document.getElementById("img_mode2").onclick = () => {
     }
 
     //Changing Logo Src
-    document.getElementById("logo2").src = "Images/Hamza_Logo.png";
+    document.getElementById("logo").src = "Images/Hamza_Logo.png";
 
     // Default Setting of COLOR of Header,  and Hero Section 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️
     var elements = document.getElementsByClassName("toogle_black_to_whote");
@@ -393,15 +393,22 @@ document.getElementById("img_mode").onclick = () => {
 let hidemenu = document.getElementById("hidebar");
 let ham = document.getElementById("hm")
 let cross = document.getElementById("cross");
-
+let main_wrapper = document.getElementById("main_wrapper");
 
 hidemenu.classList.add("hidden");
 
-ham.addEventListener('click', () => {
-    ham.style.display = "none";
-    hidemenu.classList.remove("hidden");
+ham.addEventListener('click', (event) => {
+  event.stopPropagation();
+  ham.style.display = "none";
+  hidemenu.classList.remove("hidden");
 })
-cross.addEventListener('click', () => {
-    ham.style.display = "flex";
-    hidemenu.classList.add("hidden");
+cross.addEventListener('click', (event) => {
+  event.stopPropagation();
+  ham.style.display = "flex";
+  hidemenu.classList.add("hidden");
+})
+main_wrapper.addEventListener('click', () => {
+  ham.style.display = "flex";
+  hidemenu.classList.add("hidden");
+  console.log("clicked main")
 })
