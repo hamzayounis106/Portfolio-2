@@ -2,7 +2,9 @@
   .content_hero h1 {
     font-size: 3rem;
   }
-
+  .footer {
+    padding: 3rem 1rem;
+  }
   .content_hero {
     max-width: 55%;
     width: 100%;
@@ -87,7 +89,7 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .testimonial{
+  .testimonial {
     padding: 3rem 0;
   }
   .content_hero h1 {
@@ -101,11 +103,11 @@
   .ham {
     padding-right: 23px !important;
   }
-  .hero_Section{
+  .hero_Section {
     margin-top: 0;
   }
-  .main-Header{
-margin-top: 1rem;
+  .main-Header {
+    margin-top: 1rem;
     display: flex;
     justify-content: flex-start;
   }
@@ -113,7 +115,6 @@ margin-top: 1rem;
     display: none;
   }
   #sidebar {
-    
     display: flex;
   }
 }
@@ -140,7 +141,7 @@ margin-top: 1rem;
     width: 100%;
   }
   #logo {
-    padding:1rem;
+    padding: 1rem;
     padding-top: 0;
     width: 100px;
   }
@@ -149,8 +150,62 @@ margin-top: 1rem;
   }
 }
 @media screen and (max-width: 750px) {
-  .hero_Section{
+  .hero_Section {
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hero_img {
+    margin-top: 1.4rem;
+    max-width: 60%;
+  }
+  .hero_Section {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero_img {
+    margin-top: 1.4rem;
+    max-width: 90%;
+  }
+  .hero_Section {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
+  .about_me_img img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .about_me_content h2 {
+    font-size: 1.5rem;
+  }
+  .skill_headline p {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  .skills_section_header {
+    margin-bottom: 1rem;
+  }
+  .experience_section_header {
+    margin-bottom: 1rem;
+  }
+  .skill_headline p {
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  .work_section {
+    margin: 3rem;
+  }
+  .work_header_headline p{
+    padding: 0;
+    margin-top:1rem;
+    margin-bottom: 3rem;
+  }
+  .work_box_content{
+    width: 90%;
   }
 }
