@@ -882,8 +882,8 @@ swiper-slide img {
 }
 
 #nav {
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-top:1rem;
 }
 
 .hidebar {
@@ -894,7 +894,7 @@ swiper-slide img {
   padding: 3.6rem 3rem 3.6rem 3.6rem;
   padding: 0.6rem 1rem 3.6rem 0;
   height: 100%;
-  width: 240px;
+  width: 190px;
   position: fixed;
   right: 0;
   top: 0;
@@ -959,7 +959,9 @@ swiper-slide img {
   background: white !important;
 }
 .sidebar_btn {
-  padding: 16px;
+  padding:10px 20px;
+  border-radius: 8px;
+
 }
 .sidebar_link{
   color: white;
