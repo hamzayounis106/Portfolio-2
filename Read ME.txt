@@ -1,3 +1,0 @@
-Ideas:
-->Make it responsive
-->add animations
