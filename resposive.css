@@ -166,9 +166,16 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .content_hero {
+    max-width: 100%;
+    width: 100%;
+  }
   .hero_img {
     margin-top: 1.4rem;
     max-width: 90%;
+  }
+  .tetimonial_header p{
+    padding: 1rem;
   }
   .hero_Section {
     margin-top: 11rem;
