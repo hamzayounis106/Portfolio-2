@@ -166,6 +166,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .about_me_content_wrapper{
+    padding: 0;
+  }
   .content_hero {
     max-width: 100%;
     width: 100%;
@@ -199,13 +202,11 @@
   .experience_section_header {
     margin-bottom: 1rem;
   }
-  .skill_headline p {
-    padding: 1rem;
-    margin-top: 0;
-    margin-bottom: 3rem;
-  }
   .work_section {
     margin: 2rem;
+  }
+  .experience_section .skill_headline p {
+    padding: 1rem;
   }
   .work_header_headline p{
     padding: 0;

@@ -502,6 +502,7 @@ header {
 .work_header_headline p {
   color: #d1d5db;
   font-size: 20px;
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -629,6 +630,7 @@ align-items: center; */
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  text-align: center;
   line-height: 28px;
 }
 
