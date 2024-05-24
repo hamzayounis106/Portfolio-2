@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 1080px) {
   .content_hero h1 {
     font-size: 3rem;
@@ -16,11 +15,287 @@
   .menu ul li {
     margin: 1%;
   }
-  .about_me_content{
+  .about_me_content {
     max-width: 50%;
+  }
+  .about_me_img {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 977px) {
+  .work_box_img img {
+    min-width: 260px;
+  }
+}
+@media screen and (max-width: 1014px) {
+  .test_cols {
+    display: flex;
+    padding: 28px 20px;
 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
-  .about_me_img{
+}
+@media screen and (max-width: 879px) {
+  #btn-CV {
+    border-radius: 12px;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .work_single_box {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    border-radius: 12px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .work_box_content {
+    width: 100%;
+    padding: 4% 8%;
+    border-radius: 12px;
+  }
+  .work2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about_me_content_wrapper {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .about_me_img img {
+    max-width: 90%;
+    width: 100%;
+  }
+  .about_me_img {
+    max-width: 90%;
+    width: 99%;
+  }
+  .about_me_content {
+    max-width: 90%;
+    width: 99%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .content_hero h1 {
+    font-size: 2rem;
+  }
+}
+.content_hero h1 img {
+  width: 40px;
+}
+
+@media screen and (max-width: 750px) {
+  .hero_Section {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .content_hero {
+    max-width: 90%;
+    width: 100%;
+  }
+  .hero_img {
     max-width: 50%;
+    width: 100%;
   }
+  .about_me_img {
+    max-width: 60%;
+    width: 100%;
+  }
+  #logo {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .main-Header {
+    display: none;
+  }
+  #sidebar {
+    display: flex;
+  }
+  .hero_Section {
+  }
+}
+.navbar {
+  padding-left: 45px;
+}
+#nav {
+  color: #33a242;
+}
+#cross {
+  color: white;
+}
+
+.intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-image: url("Imges/rosie-sun-1L71sPT5XKc-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: center center;
+  background-position: center top;
+  background-attachment: fixed;
+  z-index: -1;
+  opacity: 1;
+}
+
+#sidebar ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+}
+
+#sidebar li {
+  list-style: none;
+  margin: 0.7rem 0rem;
+}
+
+#link {
+  box-sizing: inherit;
+  text-decoration: none;
+  font-size: 1.15rem;
+  padding-top: 1rem;
+  color: White;
+  font-weight: 200;
+}
+
+#link:hover {
+  border-top: 3px solid rgb(228, 220, 228);
+  border-radius: 3px;
+  color: rgb(196, 196, 196);
+}
+#icons {
+  color: #ffffff;
+}
+.ham {
+  padding-right: 45px;
+  position: fixed;
+  right: 3px;
+  background-color: #111827;
+  z-index: 900;
+  color: #fff;
+  padding-left: 23px;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+#hm {
+  cursor: pointer;
+  font-size: 0.8rem !important;
+}
+
+.hamicon {
+  padding-left: 14px;
+}
+
+.cross {
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+#nav {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.hidebar {
+  background: #111827;
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 1.3rem;
+  line-height: 1.846;
+  padding: 3.6rem 3rem 3.6rem 3.6rem;
+  padding: 0.6rem 1rem 3.6rem 0;
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 700;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 1s;
+}
+
+.hidebar p {
+  font-size: 13px;
+}
+
+.hidden {
+  translate: 260px;
+  transition: all 1s;
+}
+
+.licon {
+  margin: 0px 10px;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.content {
+  font-size: 22px;
+  width: 60%;
+}
+
+.icons i {
+  margin-top: 2rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.btns {
+  padding-top: 1.8rem;
+  text-align: left;
+}
+
+.btns button {
+  margin: 4px;
+  width: 255px;
+  color: #ffffff;
+  margin: 1.5rem 1.5rem 0 0;
+  letter-spacing: 0.25rem;
+  transition: all 0.5s ease-in-out;
+  background: transparent !important;
+  border: 0.2rem solid #dbdfdb;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  margin: 0 0.3rem 1.2rem 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btns button:hover {
+  color: black;
+  background: white !important;
+}
+.sidebar_btn {
+  padding: 16px;
+}
+.sidebar_link{
+  color: white;
+  text-decoration: none;
+  
 }
