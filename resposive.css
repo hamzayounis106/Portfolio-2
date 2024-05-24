@@ -206,6 +206,9 @@
     margin-bottom: 3rem;
   }
   .work_box_content{
-    width: 90%;
+    width: 87%;
+  }
+  .hero_Section{
+    padding: 0 12px;
   }
 }
