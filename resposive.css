@@ -166,7 +166,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .about_me_content_wrapper{
+  .about_me_content_wrapper {
     padding: 0;
   }
   .content_hero {
@@ -177,7 +177,8 @@
     margin-top: 1.4rem;
     max-width: 90%;
   }
-  .tetimonial_header p{
+  .tetimonial_header p {
+    text-align: center !important;
     padding: 1rem;
   }
   .hero_Section {
@@ -190,6 +191,11 @@
   }
   .about_me_content h2 {
     font-size: 1.5rem;
+  }
+  .about_me_content {
+    max-width: 99%;
+    padding: 2%;
+    width: 99%;
   }
   .skill_headline p {
     padding: 0;
@@ -208,15 +214,16 @@
   .experience_section .skill_headline p {
     padding: 1rem;
   }
-  .work_header_headline p{
+  .work_header_headline p {
     padding: 0;
-    margin-top:1rem;
+    text-align: center !important;
+    margin-top: 1rem;
     margin-bottom: 3rem;
   }
-  .work_box_content{
+  .work_box_content {
     width: 87%;
   }
-  .hero_Section{
+  .hero_Section {
     padding: 0 12px;
   }
 }
