@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&display=swap");
-/* html{
+html{
   scroll-behavior: smooth;
-} */
+}
 body {
   padding: 0;
   font-family: Inter;
@@ -68,6 +68,13 @@ header {
 }
 .cv_theme_menu button {
   width: 70%;
+}
+.btndiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+width: 100%;
 }
 .menu ul li a {
   text-decoration: none;

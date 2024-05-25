@@ -15,7 +15,7 @@
 
 <body class="header_hero_bg" id="">
   <!-- Lets Get Back To Web Devlopment  😉-->
-  <div  id="main_wrapper" class="main">
+  <div id="main_wrapper" class="main">
     <!-- <div mv>
       <div class="logo">
         <a href="index.html"><img src="Images/Hamza_Logo.png" alt="" id="logo2" /></a>
@@ -39,13 +39,13 @@
                 <a href="#skills" id="link_tag1" class="sidebar_link">Skills</a>
               </li>
               <li>
-                <a href="" id="link_tag1" class="sidebar_link">Work</a>
+                <a href="#work" id="link_tag1" class="sidebar_link">Work</a>
               </li>
               <li>
-                <a href="" id="link_tag2" class="sidebar_link">Testimonials</a>
+                <a href="#Testimonials" id="link_tag2" class="sidebar_link">Testimonials</a>
               </li>
               <li>
-                <a href="" id="link_tag3" class="sidebar_link">Contact</a>
+                <a href="#Contact" id="link_tag3" class="sidebar_link">Contact</a>
               </li>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dicta non cupiditate. Lorem
                 ipsum dolor </p>
@@ -64,34 +64,36 @@
     <!-- Header  -->
     <div class="main-Header header_hero_bg" id="main">
       <header>
-        <div class="logo">
-          <a href="index.html"><img src="Images/Hamza_Logo.png" alt="" id="logo" /></a>
+        <div class="logo menu_fadeDown" >
+          <a href="index.html" ><img src="Images/Hamza_Logo.png" alt="" id="logo" /></a>
         </div>
         <div class="menu pcmenu">
           <ul>
-            <li>
+            <li class="menu_fadeDown">
               <a href="#about" id="link_tag" class="toogle_black_to_whote">About</a>
             </li>
-            <li>
+            <li class="menu_fadeDown">
               <a href="#skills" id="link_tag1" class="toogle_black_to_whote">Skills</a>
             </li>
-            <li>
-              <a href="" id="link_tag1" class="toogle_black_to_whote">Work</a>
+            <li class="menu_fadeDown">
+              <a href="#work" id="link_tag1" class="toogle_black_to_whote">Work</a>
             </li>
-            <li>
-              <a href="" id="link_tag2" class="toogle_black_to_whote">Testimonials</a>
+            <li class="menu_fadeDown">
+              <a href="#Testimonials" id="link_tag2" class="toogle_black_to_whote">Testimonials</a>
             </li>
-            <li>
-              <a href="" id="link_tag3" class="toogle_black_to_whote">Contact</a>
+            <li class="menu_fadeDown">
+              <a href="#Contact" id="link_tag3" class="toogle_black_to_whote">Contact</a>
             </li>
           </ul>
         </div>
         <div class="cv_theme_menu pcmenu">
           <ul>
-            <li id="img_mode">
+            <li id="img_mode" class="menu_fadeDown">
               <img src="Images/Dark Mode Icon.svg" alt="" id="main_toogle" />
             </li>
-            <button id="btn-CV">Download CV</button>
+            <div class="menu_fadeDown btndiv">
+              <button id="btn-CV">Download CV</button>
+            </div>
           </ul>
         </div>
       </header>
@@ -134,15 +136,15 @@
 
     <!-- About Section 😎 -->
 
-    <div class="about_me about_xp_bg">
-      <div class="about_me_header">
+    <div id="about" class="about_me about_xp_bg">
+      <div class="about_me_header aboutFadeUp">
         <h4 class="header_heading">About me</h4>
       </div>
       <div class="about_me_content_wrapper">
-        <div class="about_me_img">
+        <div class="about_me_img aboutFadeUp">
           <img src="Images/about.png" alt="" />
         </div>
-        <div class="about_me_content">
+        <div class="about_me_content aboutFadeUp">
           <h2 class="toogle_just_black change_heading_to_dark_theme">
             Curious about me? Here you have it:
           </h2>
@@ -187,11 +189,11 @@
 
     <!-- skills_section  😉  -->
 
-    <div #skills class="skills_section header_hero_bg">
+    <div id="skills" class="skills_section header_hero_bg">
       <div class="skills_section_header">
         <h4 class="header_heading">Skills</h4>
       </div>
-      <div class="skill_headline">
+      <div class="skill_headline skill_headlineGSAP">
         <p class="toogle_just_black change_heading_to_dark_theme">
           The skills, tools and technologies I am really good at:
         </p>
@@ -309,11 +311,11 @@
     <!-- Skill Section Closing 🙌 -->
 
     <!-- Experience Section Starting ✔ -->
-    <div #about class="experience_section about_xp_bg">
+    <div id="Experience" class="experience_section about_xp_bg">
       <div class="experience_section_header">
         <h4 class="header_heading">Experience</h4>
       </div>
-      <div class="skill_headline">
+      <div class="skill_headline exp_headlineGSAP">
         <p class="toogle_just_black change_heading_to_dark_theme">
           Here is a quick summary of my most recent experiences:
         </p>
@@ -398,7 +400,7 @@
     </div>
 
     <!-- Work Div Starting 💋  -->
-    <div class="work_section">
+    <div id="work" class="work_section">
       <div class="work_header_heading">
         <h4 class="header_heading change_heading_to_dark_theme">Lorem</h4>
       </div>
@@ -484,14 +486,14 @@
     </div>
 
     <!-- Testimonial Div Starting 💋  -->
-    <div class="testimonial about_xp_bg">
+    <div  id="Testimonials" class="testimonial about_xp_bg">
       <div class="tetimonial_header">
         <h4 class="header_heading change_heading_to_dark_theme">
           Testimonials
         </h4>
       </div>
 
-      <div class="tetimonial_header">
+      <div class="tetimonial_header tetimonial_headline">
         <p class="toogle_just_black change_heading_to_dark_theme">
           Nice things people have said about me:
         </p>
@@ -594,10 +596,10 @@
       <!-- Testimonial Main Div Closing 💋  -->
     </div>
     <!-- Foter Starts 💋  -->
-    <div class="footer">
+    <div  id="Contact" class="footer">
       <h4 class="header_heading">Get in touch</h4>
       <p class="toogle_just_black change_heading_to_dark_theme">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
       </p>
       <p class="toogle_just_black change_heading_to_dark_theme">
         Lorem ipsum dolor sit amet consectetur.
@@ -620,6 +622,8 @@
     <!-- Main Div Closing 🙌 -->
   </div>
 </body>
+<script src="dist/bundle.js"></script>
+<!-- <script src="animation.js"></script> -->
 <script src="https://kit.fontawesome.com/241f9acf1b.js" crossorigin="anonymous"></script>
 <script src="swiper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -669,7 +673,7 @@
         slidesPerView: 1,
       },
       320: {
-        slidesPerView:1,
+        slidesPerView: 1,
       },
       0: {
         slidesPerView: 1,
