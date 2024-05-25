@@ -822,7 +822,7 @@ swiper-slide img {
   width: 100%;
   flex-wrap: wrap;
   height: 100vh;
-  background-image: url("Imges/rosie-sun-1L71sPT5XKc-unsplash\ \(1\).jpg");
+  /* background-image: url("Imges/rosie-sun-1L71sPT5XKc-unsplash\ \(1\).jpg"); */
   background-size: cover;
   background-position: center center;
   background-position: center top;

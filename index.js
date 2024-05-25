@@ -1,4 +1,6 @@
-console.log("--------------Welcome to My Portfolo -------------");
+console.log("--------------Welcome to My Portfolo-------------");
+console.log("--------------M. Hamza-------------");
+console.log("--------------hamzayounis105@outlook.com -------------");
 // Default FUNCTIONS for BG BELOW ↡↡↡↡↡↡↡↡↡↡↡↡↡
 
 // Default Setting of BG of Header,Skill and Hero Section 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️
@@ -324,6 +326,13 @@ document.getElementById("img_mode").onclick = () => {
       toogle_just_black[i].style.color = "black";
     }
   } else {
+
+    //Changing express_js Image Src
+    document.getElementById("express_js").src =
+      "public/images/home-desktop-icon-express.svg";
+        //Changing Cypress_light Image Src
+    document.getElementById("Cypress_light").src =
+    "public/images/home-desktop-icon-cypress.svg";
     // Default Setting of BG of Header,Skill and Hero Section 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️
     var header_hero_bg = document.getElementsByClassName("header_hero_bg");
     for (var i = 0; i < header_hero_bg.length; i++) {
