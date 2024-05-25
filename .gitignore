@@ -1,3 +1,19 @@
 node_modules
 dsfrf.html
 .idea
+
+
+
+# Parcel cache
+.cache/
+
+# Parcel build output
+dist/
+
+# Log files
+*.log
+
+
+# OS specific files
+.DS_Store
+Thumbs.db
