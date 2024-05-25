@@ -138,3 +138,18 @@ gsap.from(".tetimonial_header , .tetimonial_headline , .sliderTestimonial ", {
     scrub: 5,
   },
 });
+gsap.from(".fadeUpFooter ", {
+  duration: 1.5,
+  y: 200,
+  delay: 0.8,
+  duration: 1.8,
+  opacity: 0,
+  stagger: 0.7,
+  scrollTrigger: {
+    trigger: "#Contact",
+    start: "top 85%",
+    end: "top 60%",
+    // markers: true,
+    scrub: 5,
+  },
+});

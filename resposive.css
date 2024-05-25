@@ -121,15 +121,16 @@
 @media screen and (max-width: 750px) {
   .hero_Section {
     margin-top: 1rem;
+  
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     gap: 10px;
   }
   .content_hero {
-    max-width: 90%;
+    max-width: 90%;  padding-bottom: 4rem;
     width: 100%;
   }
   .hero_img {
@@ -166,6 +167,13 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .work_main_box{
+    flex-wrap: wrap;
+align-items: center;
+  }
+  .work_single_box{
+    width: 90%;
+  }
   .about_me_content_wrapper {
     padding: 0;
   }
