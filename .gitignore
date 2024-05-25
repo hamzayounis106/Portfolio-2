@@ -7,8 +7,7 @@ dsfrf.html
 # Parcel cache
 .cache/
 
-# Parcel build output
-dist/
+
 
 # Log files
 *.log
